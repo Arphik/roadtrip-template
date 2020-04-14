@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.site {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav {
+  width: 20vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #f64242;
+  display: block;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#banner {
+  width: 100vw;
+  height: 66.67vw;
+  background: url("../images/banner.jpg") center/cover fixed no-repeat;
+  font-family: "Lobster", cursive;
+  line-height: 1.1;
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#banner:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background: black;
+  opacity: 0.45;
+  z-index: 1;
+}
+
+#banner .inner {
+  background: none;
+}
+
+#banner h1 {
+  font-size: 7em;
+}
+
+.inner {
+  width: 55%;
+  padding: 59px;
+  text-align: center;
+  vertical-align: baseline;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 2;
+}
+
+article {
+  display: block;
+  text-align: center;
+}
+
+article header {
+  color: #fff;
+  display: block;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+article header h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+article header p {
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 40px;
+}
+
+article .content {
+  font-size: 1.1rem;
+}
+
+article .content p {
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+article footer {
+  display: block;
+}
+
+article footer .footer__button {
+  width: 157px;
+  padding: 0 22px;
+  line-height: 42px;
+  margin: 0 auto;
+  background: transparent;
+  border-radius: 4px;
+  display: block;
+  -webkit-box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+          box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#one {
+  width: 100vw;
+  height: 66.67vw;
+  background: url("../images/banner2.jpg") no-repeat center/cover;
+}
+
+#two {
+  width: 100vw;
+  height: 66.67vw;
+  background: url("../images/banner5.jpg") no-repeat fixed center/cover;
+}
+
+#three {
+  width: 100vw;
+  height: 66.67vw;
+  background: url("../images/banner4.jpg") no-repeat center/cover;
+}
+
+#four {
+  width: 100vw;
+  height: 66.67vw;
+  background: url("../images/banner3.jpg") no-repeat fixed center/cover;
+}
+/*# sourceMappingURL=styles.css.map */
