@@ -14,20 +14,20 @@
 </head>
 
 <body>
-<!-- 
+
     <nav>
         <label for="nav__checkbox" class="nav__button">
-            <div class="burger__top burger__line"></div>
-            <div class="burger__middle burger__line"></div>
-            <div class="burger__bottom burger__line"></div>
+            <span class="burger__top burger__line"></span>
+            <span class="burger__middle burger__line"></span>
+            <span class="burger__bottom burger__line"></span>
         </label>
         <input type="checkbox" class="nav__checkbox" id="nav__checkbox">
         <label for="nav__checkbox" class="nav__background--off">
         </label>
         <div class="nav__content">
             <label for="nav__checkbox" class="nav__button--off">
-                    <div class="burger__top burger__line"></div>
-                    <div class="burger__bottom burger__line"></div>
+                    <span class="burger__top burger__line"></span>
+                    <span class="burger__bottom burger__line"></span>
             </label>
             <a href="#" class="nav__link">Home</a>
             <a href="#" class="nav__link">Generic</a>
@@ -112,29 +112,32 @@
                 </footer>
             </article>
         </div>
-    </section> -->
+    </section>
     <footer id="footer">
         <div class="inner">
             <h2>contact me</h2>
             <form action="">
-                <div class="field half">
+                <div class="field half first">
                     <label for="name">Name</label>
                     <input name="name"  id="name" type="text" placeholder="Name">
                 </div>
-                <div class="field half">
+                <div class="field half second">
                     <label for="email">Email</label>
                     <input name="email" id="email" type="text" placeholder="Email">
                 </div>
                 <div class="field">
                     <label for="message">Message</label>
-                    <input name="message" id="message" type="text" placeholder="Message">
+                    <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
                 </div>
+                <input type="button" class="button" value="SEND MESSAGE">
             </form>
         </div>
     </footer>
-    <script src="scripts/script.js"></script>
 
     <a href="https://templated.co/items/demos/roadtrip/index.html" class="credits"><strong>Road Trip</strong> <span>by TEMPLATED</span></a>
+
+    <script src="scripts/script.js"></script>
+
 
 </body>
 </html>
